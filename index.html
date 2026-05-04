@@ -1811,7 +1811,7 @@ input[type="number"]::-webkit-inner-spin-button {
     <!-- ================================================
          SECTION 3: إحصائيات الرحلات
          عدد الرحلات and عدد الحجاج: auto-calculated (readonly)
-         عدد البطاقات المسترجعة, المفقودة, المحولة: manual input fields
+         عدد البطاقات المسترجعة, المفقودة/التالفة, المحولة: manual input fields
          ================================================ -->
     <div class="section-block">
         <div class="section-hdr">
@@ -1832,7 +1832,7 @@ input[type="number"]::-webkit-inner-spin-button {
                     <td class="vc"><input type="number" placeholder="0" min="0" id="cardsReturned" oninput="if(typeof updateStatsChart==='function')updateStatsChart();"></td>
                 </tr>
                 <tr>
-                    <td class="lc">عدد البطاقات المفقودة</td>
+                    <td class="lc">عدد البطاقات المفقودة/التالفة</td>
                     <td class="vc"><input type="number" placeholder="0" min="0" id="cardsLost" oninput="if(typeof updateStatsChart==='function')updateStatsChart();"></td>
                 </tr>
                 <tr>
