@@ -55,5 +55,5 @@ start index.html       # Windows
 
 
 ## Credits
-Developed for
+Developed by Tamim Al Faiz for 
 **شجميع الحقوق محفوظة — شركة رحلات ومنافع للسياحة — المدينة المنورة © 2026**
